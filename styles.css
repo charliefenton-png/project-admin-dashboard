@@ -11,18 +11,26 @@
 .sidebar {
     background-color: red;
     grid-row: 1 / 3;
-}
-
-.sidebarContent {
-     display: grid;
-   grid-template-columns: 2;
-   gap: 20px;
-   margin-left: 20px;
-   margin-top: 20px; 
+    display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5px;
 }
 
 
 
+
+.sidebarIcons {
+  display: grid;
+  grid-template-columns: 1;
+  gap: 5px;
+}
+
+
+.sidebarText {
+   display: grid;
+  grid-template-columns: 1;
+  gap: 1px;  
+}
 
 
 .header {
