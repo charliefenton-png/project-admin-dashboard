@@ -1,7 +1,7 @@
 .container {
   border-style: solid;
   border-color: black;
-  height: 100vh;
+  height: 140vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
   grid-template-rows: 1fr 3fr;  
@@ -11,25 +11,61 @@
 .sidebar {
     background-color: red;
     grid-row: 1 / 3;
-    display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 5px;
 }
 
 
+.sidebarContainer {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+
+.dashboardText {
+  font-size: x-large;
+}
+
+.privacyText {
+  position: relative;
+  bottom: 3px;
+}
+
+.homeText {
+  position: relative;
+  top: 3px;
+}
+
+.profileText {
+  position: relative;
+  top: 3px;
+}
+
+.supportText {
+  position: relative;
+  bottom: 2px;
+}
+
+.settingsText {
+  position: relative;
+  bottom: 1px;
+}
 
 
 .sidebarIcons {
   display: grid;
   grid-template-columns: 1;
-  gap: 5px;
 }
 
 
 .sidebarText {
-   display: grid;
+  display: grid;
   grid-template-columns: 1;
-  gap: 1px;  
+  font-size: large;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  position: relative;
+  bottom: 11px;
 }
 
 
