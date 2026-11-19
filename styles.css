@@ -74,6 +74,50 @@
     background-color: red;
 }
 
+.headerTop {
+  display: grid;
+  grid-template-rows: 1;
+  grid-auto-flow: column;
+  gap: 3px;
+  margin-top: 20px;
+  padding: 1px;
+}
+
+.magIcon {
+  margin-left: 20px;
+  position: relative;
+  left: 25px;
+  top: 3px;
+}
+
+
+.bellIcon {
+  position: relative;
+  right: 10px;
+}
+
+.catOne {
+  position: relative;
+  bottom: 9px;
+  right: 12px;
+}
+
+
+.nameOne {
+  position: relative;
+  bottom: 12px;
+  right: 20px;
+}
+
+.searchBar {
+  display: grid;
+  grid-column: 2 / 4;
+  height: 20px;
+  width: 550px;
+  border-radius: 15px;
+  background-color: rgb(209, 217, 209);
+}
+
 
 .mainContent {
     background-color: green
