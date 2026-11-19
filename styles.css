@@ -118,6 +118,17 @@
   background-color: rgb(209, 217, 209);
 }
 
+.headerBottom {
+  display: grid;
+  grid-template-rows: 1;
+  grid-auto-flow: column;
+}
+
+.bottomHeadText {
+  display: flex;
+  flex-direction: column;
+}
+
 
 .mainContent {
     background-color: green
