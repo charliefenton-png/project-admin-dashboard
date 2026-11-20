@@ -176,3 +176,15 @@ button {
 .mainContent {
   background-color: rgb(209, 217, 209);
 }
+
+
+
+.mainTopText {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20px;
+  gap: 650px;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: large;
+  font-weight: bold;
+}
