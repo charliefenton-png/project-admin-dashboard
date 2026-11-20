@@ -136,17 +136,20 @@
   position: relative;
   top: 10px;
   font-weight: bold;
+  right: 90px;
 }
 
 .nameTwo {
   font-size: large;
   font-weight: bold;
+  position: relative;
+  right: 90px;
 }
 
 
 .catTwo {
   position: relative;
-  left: 90px;
+  left: 50px;
   top: 11px;
 }
 
@@ -166,6 +169,7 @@ button {
 .buttons {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin-top: 40px;
 }
 
 
