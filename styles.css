@@ -1,3 +1,7 @@
+html {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
 .container {
   height: 140vh;
   display: grid;
@@ -200,6 +204,11 @@ button {
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
 }
 
+.allCards {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 20px;
+}
 
 .cards {
   display: grid;
@@ -207,4 +216,23 @@ button {
   grid-template-rows: 1fr 1fr 1fr;
   gap: 15px;
   width: fit-content;
+}
+
+.topRightCard {
+  width: 200px;
+  height: 270px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  font-size: smaller;
+}
+
+.cardHeader {
+  font-weight: bold;
+}
+
+.cardHeader, .cardPara {
+  position: relative;
+  bottom: 22px;
 }
